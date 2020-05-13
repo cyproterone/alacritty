@@ -558,3 +558,36 @@ shell:
 
   # Print all received window events.
   #print_events: false
+
+
+schemes:
+  quiet_light: &light
+    primary:
+      foreground: '#6e7a86'
+      background: '#f1f1f1'
+
+    cursor:
+      cursor: '#ffb1fa'
+      text:   '#6e7a86'
+
+    normal:
+      black:   '#1c1c1c'
+      red:     '#bc5653'
+      green:   '#909d63'
+      yellow:  '#ebc17a'
+      blue:    '#7eaac7'
+      magenta: '#aa6292'
+      cyan:    '#86d3ce'
+      white:   '#cacaca'
+
+    bright:
+      black:   '#636363'
+      red:     '#bc5653'
+      green:   '#909d63'
+      yellow:  '#ebc17a'
+      blue:    '#7eaac7'
+      magenta: '#aa6292'
+      cyan:    '#86d3ce'
+      white:   '#f7f7f7'
+
+colors: *light
