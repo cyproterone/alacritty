@@ -636,7 +636,6 @@ shell:
   - { key: Key6,      mods: Alt|Shift, chars: "\x1b^"   } # Alt + ^
   - { key: Backslash, mods: Alt,       chars: "\x1b\\"  } # Alt + \
   - { key: Backslash, mods: Alt|Shift, chars: "\x1b|"   } # Alt + |
-
   - { key: Grave,     mods: Super,     chars: "\x1b\\"  } # Alt + `
 
 
