@@ -12,7 +12,7 @@
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 
-#window:
+window:
   # Window dimensions (changes require restart)
   #
   # Specified in number of columns/lines, not pixels.
@@ -63,7 +63,7 @@
   #startup_mode: Windowed
 
   # Window title
-  #title: Alacritty
+  title: 终端
 
   # Window class (Linux/BSD only):
   #class:
@@ -85,10 +85,10 @@
 
   # Number of lines the viewport will move for every line scrolled when
   # scrollback is enabled (history > 0).
-  #multiplier: 3
+  multiplier: 1
 
 # Font configuration
-#font:
+font:
   # Normal (roman) font face
   #normal:
     # Font family
@@ -136,7 +136,7 @@
     #style: Bold Italic
 
   # Point size
-  #size: 11.0
+  size: 14.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -165,7 +165,7 @@
   #
   # This is a global setting and will require a log out or restart to take
   # effect.
-  #use_thin_strokes: true
+  use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: false
@@ -314,10 +314,10 @@
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-#shell:
-#  program: /bin/bash
-#  args:
-#    - --login
+shell:
+  program: /usr/local/bin/zsh
+  args:
+    - --login
 
 # Startup directory
 #
