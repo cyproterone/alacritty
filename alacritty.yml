@@ -560,7 +560,7 @@ shell:
   # Print all received window events.
   #print_events: false
 
-key_bindings:
+  key_bindings:
   - { key: A,         mods: Alt,       chars: "\x1ba"   }
   - { key: B,         mods: Alt,       chars: "\x1bb"   }
   - { key: C,         mods: Alt,       chars: "\x1bc"   }
@@ -636,6 +636,8 @@ key_bindings:
   - { key: Key6,      mods: Alt|Shift, chars: "\x1b^"   } # Alt + ^
   - { key: Backslash, mods: Alt,       chars: "\x1b\\"  } # Alt + \
   - { key: Backslash, mods: Alt|Shift, chars: "\x1b|"   } # Alt + |
+
+  - { key: Grave,     mods: Super,     chars: "\x1b\\"  } # Alt + `
 
 
 schemes:
