@@ -639,34 +639,33 @@ shell:
   - { key: Grave,     mods: Super,     chars: "\x1b\\"  } # Alt + `
 
 
-schemes:
-  quiet_light: &light
-    primary:
-      foreground: '#6e7a86'
-      background: '#f1f1f1'
-
-    cursor:
-      cursor: '#ffb1fa'
-      text:   '#6e7a86'
-
-    normal:
-      black:   '#1c1c1c'
-      red:     '#bc5653'
-      green:   '#909d63'
-      yellow:  '#ebc17a'
-      blue:    '#7eaac7'
-      magenta: '#aa6292'
-      cyan:    '#86d3ce'
-      white:   '#cacaca'
-
-    bright:
-      black:   '#636363'
-      red:     '#bc5653'
-      green:   '#909d63'
-      yellow:  '#ebc17a'
-      blue:    '#7eaac7'
-      magenta: '#aa6292'
-      cyan:    '#86d3ce'
-      white:   '#f7f7f7'
-
-colors: *light
+colors: {
+    "primary": {
+      "foregroud": "#6e7a86",
+      "background": "#f1f1f1"
+    },
+    "cursor": {
+      "cursor": "#ffb1fa",
+      "text": "#6e7a86"
+    },
+    "bright": {
+      "yellow": "#ffa84f",
+      "cyan": "#5ac8a9",
+      "red": "#ff8883",
+      "blue": "#58c7ff",
+      "green": "#8dc437",
+      "black": "#000000",
+      "white": "#feffff",
+      "magenta": "#ffa3cc"
+    },
+    "normal": {
+      "blue": "#4eb5e0",
+      "yellow": "#f6a311",
+      "green": "#96bc00",
+      "red": "#ff4c41",
+      "black": "#202020",
+      "white": "#feffff",
+      "cyan": "#52bcaf",
+      "magenta": "#f587c5"
+    }
+  }
